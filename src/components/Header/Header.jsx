@@ -5,7 +5,7 @@ import ava from "../../assets/images/avatar.png";
 
 export default function Header() {
   return (
-    <section className="header p-2.5">
+    <section className="header py-2.5 font-semibold">
       <div className="container h-full flex justify-between items-center tracking-wider">
         <NavLink to={"/"} className="logo flex items-center space-x-2">
           <span className="ava inline-block rounded-full overflow-hidden">

@@ -1,0 +1,15 @@
+.footer {
+  background-color: $--light-pink;
+  .content {
+    border-bottom: 1px solid $--gray;
+    .user-info {
+      width: 50%;
+    }
+    .social-link {
+      width: 20%;
+      .icon {
+        font-size: 25px;
+      }
+    }
+  }
+}
