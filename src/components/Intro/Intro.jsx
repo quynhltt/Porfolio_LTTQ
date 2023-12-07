@@ -4,9 +4,9 @@ import "animate.css";
 import ava from "../../assets/images/Screenshot 2023-12-06 173637.png";
 import Button from "../Button/Button";
 
-export default function AboutMe() {
+export default function Intro() {
   return (
-    <section className="about flex items-center">
+    <section className="intro flex items-center">
       <div className="container flex justify-between items-center">
         <div className="content space-y-5">
           <h2 className="content__title tracking-wider text-5xl font-semibold animate__animated animate__fadeInUp">HI, I'M LÊ THANH TRÚC QUỲNH</h2>
