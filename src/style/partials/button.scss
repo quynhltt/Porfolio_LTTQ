@@ -1,0 +1,23 @@
+.btn {
+  padding: 15px 35px;
+  color: $--white;
+  transition: $--smooth;
+  &:hover {
+    transform: translateY(-3px);
+    color: $--white;
+    box-shadow: 0 0.08rem 0.8rem $--light-pink;
+  }
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  &.solid {
+    background-color: $--light-pink;
+    // border: 3px solid $--pink;
+  }
+  &.light {
+    background-color: transparent;
+    color: $--light-pink;
+    border: 3px solid $--light-pink;
+  }
+}

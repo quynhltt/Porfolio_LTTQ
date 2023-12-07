@@ -16,7 +16,7 @@ export default function Footer() {
   };
 
   return (
-    <div className="footer py-20">
+    <section className="footer py-20">
       <div className="container">
         <div className="content flex justify-between items-start pb-10">
           <div className="user-info space-y-3">
@@ -32,6 +32,6 @@ export default function Footer() {
           <p>Copyright © 2023</p>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

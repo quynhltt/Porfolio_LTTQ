@@ -1,5 +1,10 @@
 import React from "react";
+import AboutMe from "../../components/AboutMe/AboutMe";
 
 export default function HomePage() {
-  return <div>HomePage</div>;
+  return (
+    <>
+      <AboutMe />
+    </>
+  );
 }
