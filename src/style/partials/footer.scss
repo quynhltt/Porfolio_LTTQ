@@ -9,6 +9,14 @@
       width: 20%;
       .icon {
         font-size: 25px;
+        &__item {
+          a {
+            transition: $--smooth;
+            &:hover {
+              color: $--white;
+            }
+          }
+        }
       }
     }
   }

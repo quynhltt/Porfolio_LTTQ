@@ -3,6 +3,7 @@
 .header {
   height: 7vh;
   box-shadow: 0 0 0.8em $--light-gray;
+  background-color: $--white;
   .logo {
     .ava {
       width: 50px;
@@ -15,11 +16,11 @@
       }
     }
   }
-  a {
-    text-decoration: none;
-    transition: $--smooth;
-    &:hover {
-      color: $--light-pink;
-    }
-  }
+  // a {
+  //   text-decoration: none;
+  //   transition: $--smooth;
+  //   &:hover {
+  //     color: $--light-pink;
+  //   }
+  // }
 }

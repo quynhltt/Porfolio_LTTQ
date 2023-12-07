@@ -1,0 +1,16 @@
+export const dataSkill = [
+  { id: 1, name: "HTML", logoUrl: "" },
+  { id: 2, name: "CSS", logoUrl: "" },
+  { id: 3, name: "JavaScript", logoUrl: "" },
+  { id: 4, name: "TypeScript", logoUrl: "" },
+  { id: 5, name: "ReactJS", logoUrl: "" },
+  { id: 6, name: "Angular", logoUrl: "" },
+  { id: 7, name: "Redux", logoUrl: "" },
+  { id: 8, name: "Tailwind CSS", logoUrl: "" },
+  { id: 9, name: "Bootstrap", logoUrl: "" },
+  { id: 10, name: "SASS", logoUrl: "" },
+  { id: 11, name: "VS Code", logoUrl: "" },
+  { id: 12, name: "GIT", logoUrl: "" },
+  { id: 13, name: "Postman", logoUrl: "" },
+  { id: 14, name: "UI/UX", logoUrl: "" },
+];

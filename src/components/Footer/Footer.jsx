@@ -6,7 +6,7 @@ export default function Footer() {
   let renderSocialInfo = () => {
     return dataSocialLink.map((item) => {
       return (
-        <li key={item.id}>
+        <li key={item.id} className="icon__item">
           <a target="_blank" href={item.path} rel="noreferrer">
             <i className={item.icon}></i>
           </a>
