@@ -16,9 +16,9 @@ export default function AboutMe() {
   return (
     <section id="about" className="about">
       <div className="container">
-        <SectionTitle title={"ABOUT ME"} subTitlte={"Further details about me, and my current skill set — which primarily consists of programming and technology — can be found here."}></SectionTitle>
+        <SectionTitle title={"ABOUT ME"} subTitlte={"This section contains further details about me, and my current skill set — which primarily consists of programming and technology."}></SectionTitle>
         <div className="content flex justify-between mb-16">
-          <div className="desc space-y-2">
+          <div className="desc space-y-2 animate__animated animate__slideInLeft">
             <h3 className="tracking-wider text-2xl font-medium mb-3">Get to know me!</h3>
             <p className="text-lg leading-relaxed">
               I'm a <strong>Frontend Web Developer</strong> focuses on constructing the user interface of websites and web applications, which leads to the overall product's success. Check out some of my work in the{" "}
@@ -37,7 +37,7 @@ export default function AboutMe() {
               I am flexible and quickly adapt to new environments, I also have a deep passion for technology, especially front-end development. As a quick learner and good team player, I always try my best to contribute to the organization.
             </p>
           </div>
-          <div className="skill space-y-2">
+          <div className="skill space-y-2 animate__animated animate__slideInRight">
             <h3 className="tracking-wider text-2xl font-medium mb-3">My Skills</h3>
             <div className="space-y-3 w-full">{renderSkills()}</div>
           </div>
