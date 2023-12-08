@@ -1,6 +1,5 @@
 import React from "react";
 import { dataSocialLink } from "../../assets/data/dataSocialLink";
-import { NavLink } from "react-router-dom";
 
 export default function Footer() {
   let renderSocialInfo = () => {

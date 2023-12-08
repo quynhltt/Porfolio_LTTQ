@@ -1,6 +1,6 @@
 import React from "react";
-import { dataSkill } from "../../assets/data/dataSkill";
-import SectionTitle from "../SectionTitle/SectionTitle";
+import { dataSkill } from "../../../../assets/data/dataSkill";
+import SectionTitle from "../../../../components/SectionTitle/SectionTitle";
 
 export default function AboutMe() {
   let renderSkills = () => {
@@ -14,10 +14,10 @@ export default function AboutMe() {
   };
 
   return (
-    <section className="about">
+    <section id="about" className="about">
       <div className="container">
         <SectionTitle title={"ABOUT ME"} subTitlte={"Further details about me, and my current skill set — which primarily consists of programming and technology — can be found here."}></SectionTitle>
-        <div className="content flex justify-between my-16">
+        <div className="content flex justify-between mb-16">
           <div className="desc space-y-2">
             <h3 className="tracking-wider text-2xl font-medium mb-3">Get to know me!</h3>
             <p className="text-lg leading-relaxed">

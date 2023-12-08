@@ -1,8 +1,8 @@
 import React from "react";
 import "animate.css";
 
-import ava from "../../assets/images/Screenshot 2023-12-06 173637.png";
-import Button from "../Button/Button";
+import ava from "../../../../assets/images/Screenshot 2023-12-06 173637.png";
+import Button from "../../../../components/Button/Button";
 
 export default function Intro() {
   return (

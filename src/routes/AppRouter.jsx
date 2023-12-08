@@ -1,5 +1,5 @@
-import React, { lazy } from "react";
-import { useRoutes } from "react-router-dom";
+import React from "react";
+// import { useRoutes } from "react-router-dom";
 import Layout from "../layout/Layout";
 import HomePage from "../pages/HomePage/HomePage";
 
