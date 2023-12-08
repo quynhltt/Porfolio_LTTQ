@@ -1,7 +1,7 @@
 .about {
   background-image: url(../../assets/images/pic2.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain, cover;
   .content {
     .desc {
       width: 55%;

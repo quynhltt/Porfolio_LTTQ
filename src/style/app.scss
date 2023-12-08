@@ -1,12 +1,16 @@
 @import "./variables.scss";
 
 @import "./pages/layout.scss";
+@import "./pages/homepage.scss";
 @import "./partials/header.scss";
 @import "./partials/footer.scss";
 @import "./partials/button.scss";
 @import "./partials/intro.scss";
 @import "./partials/aboutMe.scss";
 @import "./partials/sectionTitle.scss";
+@import "./partials/experience.scss";
+@import "./partials/experienceItem.scss";
+@import "./partials/project.scss";
 @import "./partials/projectItem.scss";
 
 a {
