@@ -6,11 +6,11 @@ import Projects from "./component/Projects/Projects";
 
 export default function HomePage() {
   return (
-    <>
+    <div className="homepage">
       <Intro />
       <AboutMe />
       <Experience />
       <Projects />
-    </>
+    </div>
   );
 }

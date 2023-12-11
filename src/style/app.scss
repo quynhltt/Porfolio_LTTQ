@@ -5,13 +5,16 @@
 @import "./partials/header.scss";
 @import "./partials/footer.scss";
 @import "./partials/button.scss";
-@import "./partials/intro.scss";
-@import "./partials/aboutMe.scss";
-@import "./partials/sectionTitle.scss";
-@import "./partials/experience.scss";
-@import "./partials/experienceItem.scss";
-@import "./partials/project.scss";
-@import "./partials/projectItem.scss";
+
+@import "../pages/HomePage/component/Intro/intro.scss";
+@import "../pages/HomePage/component/AboutMe/aboutMe.scss";
+@import "../pages/HomePage/component/SectionTitle/sectionTitle.scss";
+@import "../pages/HomePage/component/Experience/experience.scss";
+@import "../pages/HomePage/component/Experience/experienceItem.scss";
+@import "../pages/HomePage/component/Projects/project.scss";
+@import "../pages/HomePage/component/Projects/projectItem.scss";
+
+@import "../pages/ProjectPage/components/Intro/intro.scss";
 
 a {
   text-decoration: none;

@@ -1,0 +1,16 @@
+.homepage {
+  .exp-item {
+    background-color: $--white;
+    box-shadow: 0 0 0.5rem rgba($color: $--black, $alpha: 0.1);
+    border-radius: 20px;
+    width: 40%;
+    border: 3px solid transparent;
+    //   transition: $--smooth;
+    &:hover {
+      border: 3px dashed $--light-pink;
+    }
+    .company {
+      color: $--light-pink;
+    }
+  }
+}

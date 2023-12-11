@@ -1,5 +1,5 @@
 import React from "react";
-import SectionTitle from "../../../../components/SectionTitle/SectionTitle";
+import SectionTitle from "../../component/SectionTitle/SectionTitle";
 import { dataExperience } from "../../../../assets/data/dataExperience";
 import ExperienceItem from "./ExperienceItem";
 

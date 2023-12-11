@@ -48,7 +48,7 @@ export default function Intro() {
             </ul>
           </div>
         </div>
-        <div className="animation text-center text-4xl animate__animated animate__fadeIn animate__delay-4s">
+        <div className="animation text-center text-4xl animate__animated animate__fadeIn animate__delay-3s">
           <i className="icon fa-solid fa-chevron-down"></i>
         </div>
       </div>

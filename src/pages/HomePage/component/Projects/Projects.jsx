@@ -1,5 +1,5 @@
 import React from "react";
-import SectionTitle from "../../../../components/SectionTitle/SectionTitle";
+import SectionTitle from "../../component/SectionTitle/SectionTitle";
 import { dataProject } from "../../../../assets/data/dataProject";
 import ProjectItem from "./ProjectItem";
 
