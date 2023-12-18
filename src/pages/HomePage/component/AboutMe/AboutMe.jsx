@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { dataSkill } from "../../../../assets/data/dataSkill";
 import SectionTitle from "../../component/SectionTitle/SectionTitle";
 import WOW from "wowjs";
+import ItemCard from "../../../../components/ItemCard/ItemCard";
 
 export default function AboutMe() {
   useEffect(() => {
@@ -13,9 +14,10 @@ export default function AboutMe() {
   let renderSkills = () => {
     return dataSkill.map((item) => {
       return (
-        <span key={item.id} className="skill-item inline-block mr-3 py-1.5 px-2.5">
-          {item.name}
-        </span>
+        <ItemCard key={item.id} content={item.name} className={"skill-item"} />
+        // <span key={item.id} className="skill-item inline-block mr-3 py-1.5 px-2.5">
+        //   {item.name}
+        // </span>
       );
     });
   };

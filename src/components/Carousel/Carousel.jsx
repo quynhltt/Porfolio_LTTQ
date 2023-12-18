@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { Carousel } from "antd";
-import { imgProject1 } from "../../assets/data/dataProject";
 
 export default function Slider({ imgArray }) {
   let renderCarousel = () => {
