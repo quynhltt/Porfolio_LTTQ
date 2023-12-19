@@ -4,6 +4,7 @@
   .slick-dots {
     position: absolute;
     bottom: -10px;
+    z-index: 1;
   }
   .slick-arrow {
     width: max-content;

@@ -18,9 +18,9 @@ export default function Content({ data }) {
     if (desc) {
       return desc.map((item, index) => {
         return (
-          <li key={index} className="space-x-4 ml-4 mb-2 ">
-            <i className="fa-brands fa-slack"></i>
-            <span className="text-lg">{item}</span>
+          <li key={index} className="space-x-4 ml-4 mb-2 flex items-baseline">
+            <i className="fa-brands fa-slack "></i>
+            <p className="text-lg">{item}</p>
           </li>
         );
       });
@@ -38,7 +38,7 @@ export default function Content({ data }) {
   return (
     <section className="content">
       <div className="container w-1/2 mx-auto my-16">
-        <div className="carousel w-3/4 mx-auto mb-16 animate__animated animate__fadeIn animate__slow animate__delay-2s">
+        <div className="carousel w-3/4 mx-auto mb-16 animate__animated animate__fadeIn animate__slow animate__delay-1s">
           <Slider imgArray={demo} />
         </div>
         <div className="overview space-y-10">
