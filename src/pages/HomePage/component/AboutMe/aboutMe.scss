@@ -9,15 +9,6 @@
       }
       .skill {
         width: 35%;
-        &-item {
-          background-color: $--white;
-          border-radius: 5px;
-          transform: $--smooth;
-          box-shadow: 0 0 0.5rem rgba($color: $--black, $alpha: 0.1);
-          &:hover {
-            transform: translateY(-2px);
-          }
-        }
       }
     }
   }

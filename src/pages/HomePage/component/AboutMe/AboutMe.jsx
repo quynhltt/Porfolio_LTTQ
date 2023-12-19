@@ -13,12 +13,7 @@ export default function AboutMe() {
 
   let renderSkills = () => {
     return dataSkill.map((item) => {
-      return (
-        <ItemCard key={item.id} content={item.name} className={"skill-item"} />
-        // <span key={item.id} className="skill-item inline-block mr-3 py-1.5 px-2.5">
-        //   {item.name}
-        // </span>
-      );
+      return <ItemCard key={item.id} content={item.name} className={"skill-item"} />;
     });
   };
 

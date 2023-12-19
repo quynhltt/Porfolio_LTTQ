@@ -16,7 +16,7 @@ export default function Slider({ imgArray }) {
 
   return (
     <div>
-      <Carousel dots arrows>
+      <Carousel dots arrows autoplay autoplaySpeed={1800}>
         {renderCarousel()}
       </Carousel>
     </div>
