@@ -1,0 +1,20 @@
+.back-to-top-btn {
+  background: rgba($color: $--black, $alpha: 0.2);
+  color: $--white;
+  padding: 15px;
+  border-radius: 10px;
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  &:focus {
+    outline: none;
+  }
+  &.notShowed {
+    display: none;
+  }
+  &.showed {
+    display: block;
+  }
+}

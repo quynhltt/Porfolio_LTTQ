@@ -7,7 +7,7 @@ export default function Experience() {
   return (
     <section id="experience" className="experience">
       <div className="container">
-        <SectionTitle title={"EXPERIENCE"} />
+        <SectionTitle title={"EXPERIENCE"} subTitlte={"This section contains a selection of personal milestone, each with a description attached."} />
         <div className="exp-list mx-auto flex justify-center space-x-5 mb-16">
           {dataExperience.map((item) => {
             return <ExperienceItem key={item.id} data={item} />;
