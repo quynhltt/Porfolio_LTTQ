@@ -1,0 +1,12 @@
+.exp-item {
+  position: relative;
+  &::before {
+    content: "";
+    height: 1px;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 25%;
+    background-color: rgba($color: $--light-gray, $alpha: 0.3);
+  }
+}

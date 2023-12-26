@@ -19,7 +19,7 @@ export default function Footer() {
       <div className="container">
         <div className="content flex justify-between items-start pb-10">
           <div className="user-info space-y-3">
-            <h3 className="tracking-wider font-semibold text-xl">LÊ THANH TRÚC QUỲNH</h3>
+            <h3 className="tracking-wider font-semibold text-xl">USERNAME</h3>
             <p>A Frontend Web Developer focuses on constructing the user interface of websites and web applications, which leads to the overall product's success.</p>
           </div>
           <div className="social-link space-y-3">

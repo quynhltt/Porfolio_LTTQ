@@ -3,6 +3,7 @@ import React from "react";
 import Layout from "../layout/Layout";
 import HomePage from "../pages/HomePage/HomePage";
 import ProjectPage from "../pages/ProjectPage/ProjectPage";
+import ExperiencePage from "../pages/ExperiencePage/ExperiencePage";
 
 // const HomePage = lazy(() => import("../pages/HomePage/HomePage"));
 
@@ -25,5 +26,9 @@ export const appRouter = [
   {
     path: "/project/:id",
     element: <Layout Component={ProjectPage} />,
+  },
+  {
+    path: "/experience/:id",
+    element: <Layout Component={ExperiencePage} />,
   },
 ];
