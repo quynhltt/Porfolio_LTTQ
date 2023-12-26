@@ -16,7 +16,6 @@ export default function ExpItem({ data }) {
       return (
         <div key={index} className="value col-span-3 flex items-baseline space-x-3 mb-1">
           {content.length > 1 ? <i className="fa-brands fa-slack text-sm"></i> : ""}
-
           <p>{stack}</p>
         </div>
       );
