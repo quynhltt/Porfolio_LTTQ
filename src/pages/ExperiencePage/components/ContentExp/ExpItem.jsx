@@ -1,9 +1,13 @@
 import React, { useEffect } from "react";
 import ItemCard from "../../../../components/ItemCard/ItemCard";
+import WOW from "wowjs";
 
-export default function ExpItem({ data }) {
+export default function ExpItem({ data, isFirstIndex }) {
   useEffect(() => {
     onCapitalize("knowledgeGained");
+    new WOW.WOW({
+      live: false,
+    }).init();
   }, []);
   let renderStack = (stack) => {
     return stack.map((stack, index) => {
@@ -14,7 +18,7 @@ export default function ExpItem({ data }) {
   let renderCategContent = (content) => {
     return content.map((stack, index) => {
       return (
-        <div key={index} className="value col-span-3 flex items-baseline space-x-3 mb-1">
+        <div key={index} className="value col-span-3  flex items-baseline space-x-3 mb-1">
           {content.length > 1 ? <i className="fa-brands fa-slack text-sm"></i> : ""}
           <p>{stack}</p>
         </div>
@@ -37,23 +41,23 @@ export default function ExpItem({ data }) {
             case "technologyStack":
               return (
                 <div key={index} className="grid grid-cols-4 gap-5">
-                  <div className="category col-span-1 text-right tracking-wider font-semibold">{onCapitalize(item)}:</div>
-                  <div className="value col-span-3">{renderStack(data[item])}</div>
+                  <div className={`category col-span-1 text-right tracking-wider font-semibold wow animate__delay-${isFirstIndex ? "2" : "0"}s animate__animated animate__fadeInLeft`}>{onCapitalize(item)}:</div>
+                  <div className={`value col-span-3 wow animate__delay-${isFirstIndex ? "2" : "0"}s animate__animated animate__fadeInRight`}>{renderStack(data[item])}</div>
                 </div>
               );
             case "responsibility":
             case "knowledgeGained":
               return (
                 <div key={index} className="grid grid-cols-4 gap-5 items-baseline">
-                  <div className="category col-span-1 text-right tracking-wider font-semibold">{onCapitalize(item)}:</div>
-                  <div className="value col-span-3">{renderCategContent(data[item])}</div>
+                  <div className={`category col-span-1 text-right tracking-wider font-semibold wow animate__delay-${isFirstIndex ? "2" : "0"}s animate__animated animate__fadeInLeft`}>{onCapitalize(item)}:</div>
+                  <div className={`value col-span-3 wow animate__delay-${isFirstIndex ? "2" : "0"}s animate__animated animate__fadeInRight`}>{renderCategContent(data[item])}</div>
                 </div>
               );
             default:
               return (
                 <div key={index} className="grid grid-cols-4 gap-5 items-baseline">
-                  <div className="category col-span-1 text-right tracking-wider font-semibold">{onCapitalize(item)}:</div>
-                  <div className="value col-span-3">{data[item]}</div>
+                  <div className={`category col-span-1 text-right tracking-wider font-semibold wow animate__delay-${isFirstIndex ? "2" : "0"}s animate__animated animate__fadeInLeft`}>{onCapitalize(item)}:</div>
+                  <div className={`value col-span-3 wow animate__delay-${isFirstIndex ? "2" : "0"}s animate__animated animate__fadeInRight`}>{data[item]}</div>
                 </div>
               );
           }
@@ -61,5 +65,5 @@ export default function ExpItem({ data }) {
       });
     }
   };
-  return <div className="exp-item py-5 space-y-3 text-lg">{renderExp()}</div>;
+  return <div className="exp-item py-5 pr-5 space-y-3 text-lg">{renderExp()}</div>;
 }

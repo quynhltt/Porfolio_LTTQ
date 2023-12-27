@@ -11,7 +11,7 @@ export default function ContentExp({ data }) {
 
   let renderExpItem = () => {
     return dataRender.map((item, index) => {
-      return <ExpItem key={index} data={item} />;
+      return <ExpItem key={index} data={item} isFirstIndex={index === 0} />;
     });
   };
 
@@ -19,7 +19,7 @@ export default function ContentExp({ data }) {
     <section className="content">
       <div className="container w-2/3 mx-auto ">
         <div className="exp-list">{renderExpItem()}</div>
-        <div className="link mb-10">
+        <div className={`link mb-10 mt-2.5 animate__animated animate__fadeInUp wow animate__delay-${dataRender.length > 1 ? "0" : "3"}s`}>
           <HashLink to={"/#experience"} smooth>
             <Button content={"GO BACK"} typeBtn={"light"} />
           </HashLink>
