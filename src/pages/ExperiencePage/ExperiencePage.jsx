@@ -8,6 +8,9 @@ export default function ExperiencePage() {
   const [data, setData] = useState([]);
   let param = useParams();
   useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  useEffect(() => {
     setData(dataExperience.find((item) => item.id == param.id));
   }, [param.id]);
   return (

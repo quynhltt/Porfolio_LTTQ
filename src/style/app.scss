@@ -20,7 +20,9 @@
 @import "../pages/ProjectPage/components/Intro/intro.scss";
 @import "../pages/ProjectPage/components/Content/content.scss";
 
+@import "../pages/ExperiencePage/components/IntroExp/introExp.scss";
 @import "../pages/ExperiencePage/components/ContentExp/expItem.scss";
+@import "../pages/ExperiencePage/components/ContentExp/contentExp.scss";
 a {
   text-decoration: none;
   transition: $--smooth;

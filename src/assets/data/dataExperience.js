@@ -1,5 +1,3 @@
-import { projectBeckhoff } from "./data";
-
 export const dataExperience = [
   {
     id: 1,
@@ -8,7 +6,6 @@ export const dataExperience = [
     company: "TPBank Fico",
     timeline: "Jan 2023 - Present",
     description: "TPB - Fico is a consumer credit division under TP Bank - Tien Phong Bank, specializing in supporting fast, simple unsecured salary loan products, disbursed in just 2-3 working days.",
-    // project: projectBeckhoff,
   },
   {
     id: 2,
@@ -17,7 +14,6 @@ export const dataExperience = [
     company: "Beckhoff Automation Vietnam",
     timeline: "May 2022 - Oct 2022",
     description: "Beckhoff Automation is a global provider of open automation systems based on advanced PC Control technology.",
-    // project: projectBeckhoff,
   },
   {
     id: 3,
@@ -26,7 +22,6 @@ export const dataExperience = [
     company: "Intel Products Vietnam",
     timeline: "Mar 2021 - Sep 2021",
     description: "Intel Products Vietnam is a company operating in the field of assembling and testing computer chip products for export and research and development in the field of high technical information.",
-    // project: projectBeckhoff,
   },
 ];
 

@@ -1,0 +1,22 @@
+.exp-page {
+  position: relative;
+  .intro {
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    z-index: 1;
+    &::after {
+      content: "";
+      background-image: url(../../../../assets/images/section-3.png);
+      background-repeat: no-repeat;
+      background-size: auto 100%;
+      background-position: left;
+      height: 50vh;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+  }
+}

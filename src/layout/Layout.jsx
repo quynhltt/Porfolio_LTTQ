@@ -11,7 +11,6 @@ export default function Layout({ Component }) {
         <Component />
       </div>
       <Footer />
-
       <BackToTopButton />
     </div>
   );
