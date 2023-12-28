@@ -1,19 +1,32 @@
 .footer {
-  background-color: $--light-pink;
-  .content {
-    border-bottom: 1px solid $--gray;
-    .user-info {
-      width: 50%;
-    }
-    .social-link {
-      width: 20%;
-      .icon {
-        font-size: 25px;
-        &__item {
-          a {
-            transition: $--smooth;
-            &:hover {
-              color: $--white;
+  // background-color: $--light-pink;
+  // height: 40vh;
+  background-color: $--black;
+  color: $--white;
+  .pattern {
+    background-image: url(../../assets/images/pattern2.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 100vw 10vh;
+    height: 18vh;
+    width: 100vw;
+  }
+  .container {
+    .content {
+      border-bottom: 1px solid $--gray;
+      .user-info {
+        width: 50%;
+      }
+      .social-link {
+        width: 20%;
+        .icon {
+          font-size: 25px;
+          &__item {
+            a {
+              transition: $--smooth;
+              &:hover {
+                color: $--light-pink;
+              }
             }
           }
         }

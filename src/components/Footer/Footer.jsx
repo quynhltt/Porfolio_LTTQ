@@ -15,9 +15,10 @@ export default function Footer() {
   };
 
   return (
-    <section className="footer py-20">
+    <section className="footer overflow-hidden ">
+      <div className="pattern"></div>
       <div className="container">
-        <div className="content flex justify-between items-start pb-10">
+        <div className="content flex justify-between items-start pb-8">
           <div className="user-info space-y-3">
             <h3 className="tracking-wider font-semibold text-xl">USERNAME</h3>
             <p>A Frontend Web Developer focuses on constructing the user interface of websites and web applications, which leads to the overall product's success.</p>
@@ -27,7 +28,7 @@ export default function Footer() {
             <ul className="icon flex justify-start items-center space-x-5">{renderSocialInfo()}</ul>
           </div>
         </div>
-        <div className="copyright pt-6">
+        <div className="copyright py-3">
           <p>Copyright © 2023</p>
         </div>
       </div>
