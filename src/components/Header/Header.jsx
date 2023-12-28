@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 import ava from "../../assets/images/avatar.png";
+import { HashLink } from "react-router-hash-link";
 
 export default function Header() {
   return (
@@ -14,10 +15,10 @@ export default function Header() {
           <span>USERNAME</span>
         </NavLink>
         <div className="menu flex space-x-10 justify-between items-center">
-          <a href="#">HOME</a>
-          <a href="#about">ABOUT</a>
-          <a href="#experience">EXPERIENCE</a>
-          <a href="#project">PROJECT</a>
+          <HashLink to={"/#"}>HOME</HashLink>
+          <HashLink to={"/#about"}>ABOUT</HashLink>
+          <HashLink to={"/#experience"}>EXPERIENCE</HashLink>
+          <HashLink to={"/#project"}>PROJECT</HashLink>
         </div>
       </div>
     </section>
