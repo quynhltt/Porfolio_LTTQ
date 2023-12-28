@@ -6,20 +6,39 @@
   &:hover {
     transform: translateY(-3px);
     color: $--white;
-    box-shadow: 0 0.08rem 0.8rem $--light-pink;
+    // box-shadow: 0 0.08rem 0.8rem $--light-pink;
   }
   &:focus {
     outline: none;
     box-shadow: none;
   }
-  &.solid {
+  &.solid-pink {
     background-color: $--light-pink;
-    // border: 3px solid $--pink;
+    &:hover {
+      box-shadow: 0 0.08rem 0.8rem $--light-pink;
+    }
   }
-  &.light {
+  &.solid-beige {
+    background-color: $--beige;
+    &:hover {
+      box-shadow: 0 0.08rem 0.8rem $--beige;
+    }
+  }
+  &.light-pink {
     background-color: transparent;
     color: $--light-pink;
     border: 3px solid $--light-pink;
+    &:hover {
+      box-shadow: 0 0.08rem 0.8rem $--light-pink;
+    }
+  }
+  &.light-beige {
+    background-color: transparent;
+    color: $--beige;
+    border: 3px solid $--beige;
+    &:hover {
+      box-shadow: 0 0.08rem 0.8rem $--beige;
+    }
   }
   &.light-white {
     background-color: transparent;

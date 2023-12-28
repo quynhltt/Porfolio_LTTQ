@@ -62,10 +62,10 @@ export default function Content({ data }) {
             <h3 className="tracking-wider text-2xl font-bold animate__animated animate__fadeInUp wow">See live: </h3>
             <div className="button ml-4 space-x-5 animate__animated animate__fadeInUp wow">
               <a target="_blank" href={path} rel="noreferrer">
-                <Button content={"PROJECT LINK"} typeBtn={"solid"} />
+                <Button content={"PROJECT LINK"} typeBtn={"solid-pink"} />
               </a>
               <HashLink to={"/#project"} smooth>
-                <Button content={"GO BACK"} typeBtn={"light"} />
+                <Button content={"GO BACK"} typeBtn={"light-pink"} />
               </HashLink>
             </div>
           </div>

@@ -1,18 +1,24 @@
 .homepage {
   .intro {
     height: 93vh;
-    // padding: 100px 0;
     background-image: url(../../../../assets/images/bg16.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    position: relative;
     .container {
       .content {
         width: 65%;
       }
       .ava {
         width: 35%;
+        background-image: linear-gradient(to top, $--light-pink, $--white);
+        background-position: bottom;
+        background-size: 100% 90%;
+        background-repeat: no-repeat;
+        border-radius: 100px;
+        &__img {
+          width: 80%;
+        }
       }
     }
     .animation {

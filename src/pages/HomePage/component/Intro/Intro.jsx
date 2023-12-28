@@ -1,7 +1,7 @@
 import React from "react";
 import "animate.css";
 
-import ava from "../../../../assets/images/Screenshot 2023-12-06 173637.png";
+import ava from "../../../../assets/images/ava-transparent.png";
 import Button from "../../../../components/Button/Button";
 import { dataSocialLink } from "../../../../assets/data/dataSocialLink";
 
@@ -15,11 +15,11 @@ export default function Intro() {
             A Frontend Web Developer focuses on constructing the user interface of websites and web applications, <br /> which leads to the overall product's success.
           </p>
           <a href="#project" className="inline-block animate__animated animate__fadeInUp animate__delay-2s">
-            <Button typeBtn={"solid"} content={"PROJECTS"} />
+            <Button typeBtn={"solid-pink"} content={"PROJECTS"} />
           </a>
         </div>
         <div className="ava animate__animated animate__fadeInUp animate__delay-2s">
-          <img src={ava} alt="" style={{ border: "10px solid #1e3050", borderRadius: "10px" }} className="ava__img mx-auto" />
+          <img src={ava} alt="" className="ava__img mx-auto" />
         </div>
       </div>
       <div>

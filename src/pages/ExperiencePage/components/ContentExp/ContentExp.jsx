@@ -21,7 +21,7 @@ export default function ContentExp({ data }) {
         <div className="exp-list">{renderExpItem()}</div>
         <div className={`link mb-10 mt-2.5 animate__animated animate__fadeInUp wow animate__delay-${dataRender.length > 1 ? "0" : "3"}s`}>
           <HashLink to={"/#experience"} smooth>
-            <Button content={"GO BACK"} typeBtn={"light"} />
+            <Button content={"GO BACK"} typeBtn={"light-beige"} />
           </HashLink>
         </div>
       </div>

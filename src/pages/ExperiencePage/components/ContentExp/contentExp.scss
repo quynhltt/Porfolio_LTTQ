@@ -12,7 +12,7 @@
       z-index: -2;
       border-radius: 100px;
       background-color: transparent;
-      outline: 35px solid $--beige;
+      outline: 35px solid $--light-beige;
       outline-offset: 95px;
     }
     &::after {
@@ -25,8 +25,8 @@
       z-index: -2;
       border-radius: 100px;
       background-color: transparent;
-      border: 35px solid $--beige;
-      outline: 35px solid $--beige;
+      border: 35px solid $--light-beige;
+      outline: 35px solid $--light-beige;
       outline-offset: 30px;
     }
   }

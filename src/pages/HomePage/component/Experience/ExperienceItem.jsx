@@ -18,7 +18,7 @@ export default function ExperienceItem({ data, animation }) {
       <p className="timeline">{timeline}</p>
       <div className="text-center mt-3">
         <NavLink to={`/experience/${id}`}>
-          <Button content={"More detail >"} typeBtn={"solid"} />
+          <Button content={"More detail >"} typeBtn={"solid-pink"} />
         </NavLink>
       </div>
     </div>
