@@ -18,7 +18,7 @@ export default function Intro() {
             <Button typeBtn={"solid-pink"} content={"PROJECTS"} />
           </a>
         </div>
-        <div className="ava animate__animated animate__fadeInUp animate__delay-2s">
+        <div className="ava animate__animated animate__fadeInUpBig animate__delay-2s">
           <img src={ava} alt="" className="ava__img mx-auto" />
         </div>
       </div>
