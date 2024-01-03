@@ -1,15 +1,14 @@
 @import "./variables.scss";
 
-@import "./pages/layout.scss";
-@import "./pages/homepage.scss";
-// @import "./partials/header.scss";
-@import "./partials/footer.scss";
-@import "./partials/button.scss";
-@import "./partials/carousel.scss";
-@import "./partials/itemCard.scss";
-@import "./partials/backToTopButton.scss";
+@import "../layout/layout.scss";
+@import "../pages/HomePage/homepage.scss";
 
 @import "../components/Header/header.scss";
+@import "../components/Footer/footer.scss";
+@import "../components/Button/button.scss";
+@import "../components/Carousel/carousel.scss";
+@import "../components/ItemCard/itemCard.scss";
+@import "../components/BackToTopButton/backToTopButton.scss";
 
 @import "../pages/HomePage/component/Intro/intro.scss";
 @import "../pages/HomePage/component/AboutMe/aboutMe.scss";
@@ -25,6 +24,7 @@
 @import "../pages/ExperiencePage/components/IntroExp/introExp.scss";
 @import "../pages/ExperiencePage/components/ContentExp/expItem.scss";
 @import "../pages/ExperiencePage/components/ContentExp/contentExp.scss";
+
 a {
   text-decoration: none;
   transition: $--smooth;
