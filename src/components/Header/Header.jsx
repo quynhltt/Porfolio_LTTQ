@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 import ava from "../../assets/images/avatar.png";
 import { HashLink } from "react-router-hash-link";
-import { ThemeContext } from "../../Theme";
+import { ThemeContext } from "../../context/Theme";
 
 export default function Header() {
   const { theme, toggleTheme } = useContext(ThemeContext);
@@ -22,7 +22,8 @@ export default function Header() {
           <HashLink to={"/#experience"}>EXPERIENCE</HashLink>
           <HashLink to={"/#project"}>PROJECT</HashLink>
         </div>
-        {/* <div>
+
+        <div>
           <button
             onClick={() => {
               toggleTheme();
@@ -30,7 +31,7 @@ export default function Header() {
           >
             {theme}
           </button>
-        </div> */}
+        </div>
       </div>
     </section>
   );
