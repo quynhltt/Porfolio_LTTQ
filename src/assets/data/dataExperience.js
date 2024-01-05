@@ -18,7 +18,7 @@ export const dataExperience = [
   {
     id: 3,
     code: "IPV",
-    position: "Software Developer",
+    position: "Software Developer Intern",
     company: "Intel Products Vietnam",
     timeline: "Mar 2021 - Sep 2021",
     description: "Intel Products Vietnam is a company operating in the field of assembling and testing computer chip products for export and research and development in the field of high technical information.",
