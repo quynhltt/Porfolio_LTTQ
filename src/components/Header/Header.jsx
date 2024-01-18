@@ -23,7 +23,7 @@ export default function Header() {
           <HashLink to={"/#project"}>PROJECT</HashLink>
         </div>
 
-        <div>
+        {/* <div>
           <button
             onClick={() => {
               toggleTheme();
@@ -31,7 +31,7 @@ export default function Header() {
           >
             {theme}
           </button>
-        </div>
+        </div> */}
       </div>
     </section>
   );
